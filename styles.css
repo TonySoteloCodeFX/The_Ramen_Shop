@@ -1,47 +1,113 @@
 /* font-family: "Pacifico", cursive;  - normal 400*/
 /* font-family: "Poppins", sans-serif;  - italic,normal - 100-900 */
 
+/* color #1 - #3D405B - charcol */
+/* color #2 - #FEF8ED - cream */
+/* color #3 - #B43257 - redish */
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-.dark-bg {
+body {
+    color: #B43257;
     width: 100%;
     height: 100vh;
     display: grid;
     gap: 2rem;
     grid-template-rows: auto 1fr auto;
-    background-color: #F4F1DE;
+    font-family: "Poppins", sans-serif;
+    background-color: #FEF8ED;
 }
 
-.logo-the-ramen-shop {
-    line-height: 10px;
+a {
+    color: #B43257;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3D405B;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto 1fr 1fr;
+    padding: 2rem 3rem;
+    box-shadow: black 0px 0px 7px;
+    /* background-color: black; */
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 15px;
     text-align: center;
     font-family: "Pacifico", cursive;
     position: relative;
-    bottom: 10px;
-    color: #3D405B;
-    /* background-color: #81B29A; */
+    bottom: 15px;
+    /* background-color:chocolate; */
 }
 
-.logo-the {
-    font-size: 12px;
-}
-
-.nav-item a, .nav-link, .bi {
+.logo div:first-child {
     font-size: 15px;
-    color: #3D405B;
-    font-family: "Poppins", sans-serif;
-    /* background-color: #E07A5F; */
+    position: relative;
 }
 
-main {
-    height: 100%;
-    background-color: #E07A5F;
+.logo div:last-child {
+    font-size: 25px;
 }
+
+.nav-ul-ts {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    /* background-color: aqua; */
+}
+
+.nav-cart-ts {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    /* background-color: cadetblue; */
+}
+
+
+/* -------------------------------------   FOOTER  */
 
 footer {
-    background-color: #81B29A;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 3rem;
+    box-shadow: black 0px 0px 7px;
+    /* background-color: black; */
+}
+
+.all-rights-reserved {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    /* background-color: aquamarine; */
+}
+
+.socials-container {
+    display: flex;
+    gap: 2rem;
+    /* background-color: orchid; */
 }
