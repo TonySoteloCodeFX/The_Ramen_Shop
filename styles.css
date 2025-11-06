@@ -23,11 +23,21 @@ body {
 
 a {
     color: #B43257;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover {
-    color: #3D405B;
+    color: #FEF8ED;
+    background-color: #B43257;
+    /* border: #B43257 2px solid; */
+}
+
+.selected {
+    color: #FEF8ED;
+    background-color: #B43257;
 }
 
 nav {
@@ -37,7 +47,6 @@ nav {
     gap: 2rem;
     grid-template-columns: auto 1fr 1fr;
     padding: 2rem 3rem;
-    /* box-shadow: black 0px 0px 7px; */
     /* background-color: black; */
 }
 
@@ -94,7 +103,6 @@ footer {
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
     padding: 2rem 3rem;
-    /* box-shadow: black 0px 0px 7px; */
     /* background-color: black; */
 }
 

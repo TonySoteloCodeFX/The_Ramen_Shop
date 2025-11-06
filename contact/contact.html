@@ -10,8 +10,8 @@
     <!-- Bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>The Ramen Shop</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./contact.css">
     <link rel="icon" type="image/png" href="./src/img/main/ramen.png">
 </head>
 
@@ -37,7 +37,7 @@
                 </li>
 
                 <li>
-                    <a class="nav-link-ts" href="./contact/contact.html">Contact US</a>
+                    <a class="nav-link-ts selected" href="">Contact US</a>
                 </li>
 
                 <li>
@@ -75,15 +75,64 @@
     <main>
 
         <div class="dark-bg">
-            <section class="main-hero">
-                <div class="txt-1">The Best</div>
-                <div class="txt-2">RAMEN</div>
-                <div class="txt-1">In Town</div>
+
+            <section class="form-container">
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected disabled>Choose...</option>
+                            <option>California</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Sign me up for rewards!
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn">Create Account</button>
+                    </div>
+                </form>
+
             </section>
-    
-            <div>
-                <a class="order-btn" href="">ORDER NOW!</a>
-            </div>
+
+
+
+
+
+
+
+
+
         </div>
         
     </main>

@@ -1,0 +1,48 @@
+/* font-family: "Pacifico", cursive;  - normal 400*/
+/* font-family: "Poppins", sans-serif;  - italic,normal - 100-900 */
+
+/* color #1 - #3D405B - charcol */
+/* color #2 - #FEF8ED - cream */
+/* color #3 - #B43257 - redish */
+
+nav, footer {
+    box-shadow: black 0px 0px 7px;
+}
+
+main {
+    background-image: url(../src/img/create_acc/ramen_1.jpg);
+    background-color: aqua;
+}
+
+.dark-bg {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.form-container {
+    width: 40%;
+    color: #fef8ed;
+    padding: 2rem;
+    border-radius: 20px;
+    /* box-shadow: black 0px 2px 7px; */
+    background-color: #B43257;
+    transition: 0.3s;
+}
+
+.form-container:hover {
+    box-shadow: black 0px 3px 8px;
+}
+
+.btn {
+    color: #fef8ed;
+    border-color: #fef8ed;
+}
+
+.btn:hover {
+    color: #B43257;
+    background-color: #fef8ed;
+}
